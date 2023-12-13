@@ -9,9 +9,9 @@ public class Student {
     }
 
     public Student(int id, String name, double gpa) {
-        this.id = id;
-        this.name = name;
-        this.gpa = gpa;
+        setId(id);
+        setName(name);
+        setGpa(gpa);
     }
 
     public int getId() {
